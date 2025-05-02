@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+
+}
+
+.calbody{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(47, 47, 47, 1);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+
+}
+
+.screen{
+    background-color: gray;
+    height: 80px;
+    width: 480px;
+    margin-top: 10px;
+}
+
+.buttons-style{
+    height: 400px;
+    width: 480px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.bt1{
+    height: 60px;
+    width: 100px;
+    background-color: black;
+    border: 2px solid red;
+    display: flex;
+    margin-top: 2px;
+
+}
+
+
+.lastpart{
+    height: 65px;
+    width: 480px;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+
+}
+
+.zeroButton{
+    height: 60px;
+    width: 212px;
+    background-color: black;
+    border: 2px solid red;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 24px;
+    margin-top: 2px;
+}
